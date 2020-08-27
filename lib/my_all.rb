@@ -9,3 +9,10 @@ def my_all?(collection)
   end 
 end
 
+if 
+  block_return_values(false)
+  puts false
+else 
+  block_return_values(true)
+  puts true
+end 
